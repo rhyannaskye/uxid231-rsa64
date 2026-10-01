@@ -1,5 +1,4 @@
-# UXID 231 - rsa64
-UXID 231 Portfolio
+# Rhyanna Ashton
 
 ## About
 
