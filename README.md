@@ -1,32 +1,10 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>Rhyanna's Portfolio</title>
-    
-</head>
-<body>
-    <h1>Rhyanna's Portfolio</h1>
-    <p>Check out my works below!</p>
-</header>
+# Rhyanna Ashton
 
+## About
+Hi! My name is Rhyanna and I'm a 3rd year Product Design major with a minor in User Experience and Interaction Design at Drexel University
 
-<nav aria-label="Primary">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="works.html">Works</a>
-    </nav>
-<main>
-    <h2>About Me</h2>
-        <p>Hi! My name is Rhyanna and I'm a 3rd year Product Design major with a minor in User Experience and Interaction Design at Drexel University.</p>
-        <p>I believe products should provide a transformative experience for someone.</p>
-        <p>Through play, user-centered research, and iterative prototyping, I want to examine what makes an experience with a product forgettable and change that to a memorable interaction that inspires critical thought and feeling.</p>
-        <p>I aim to create designs that help inspire magic in everyday moments, surprise in monotonous routines, and curiosity in dull instances.</p>
+## Topic
+This portfolio site will display 3 of my past projects
 
-<footer>
-        <p>This is the footer</p>
-    </footer>
-</main>
+## AI Use
+Week 3: I used ChatGPT to help identify and correct HTML structure issues, check my code against the assignment requirements, and improve the semantic organization of my HTML.
