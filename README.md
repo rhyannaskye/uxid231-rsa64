@@ -17,12 +17,14 @@
 <nav aria-label="Primary">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
+        <a href="works.html">Works</a>
     </nav>
 <main>
     <h2>About Me</h2>
         <p>Hi! My name is Rhyanna and I'm a 3rd year Product Design major with a minor in User Experience and Interaction Design at Drexel University.</p>
-        <p>lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>I believe products should provide a transformative experience for someone.</p>
+        <p>Through play, user-centered research, and iterative prototyping, I want to examine what makes an experience with a product forgettable and change that to a memorable interaction that inspires critical thought and feeling.</p>
+        <p>I aim to create designs that help inspire magic in everyday moments, surprise in monotonous routines, and curiosity in dull instances.</p>
         <ul>
             <li>one</li>
             <li>two</li>
