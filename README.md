@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+<title>Rhyanna's Portfolio</title>
     
 </head>
 <body>
@@ -25,30 +25,8 @@
         <p>I believe products should provide a transformative experience for someone.</p>
         <p>Through play, user-centered research, and iterative prototyping, I want to examine what makes an experience with a product forgettable and change that to a memorable interaction that inspires critical thought and feeling.</p>
         <p>I aim to create designs that help inspire magic in everyday moments, surprise in monotonous routines, and curiosity in dull instances.</p>
-        <ul>
-            <li>one</li>
-            <li>two</li>
-            <li>three</li>
-        </ul>
-        <ol>
-            <li>four</li>
-            <li>five</li>
-            <li>six</li>
-        <dl>
-            <dt>seven</dt>
-            <dd>lorem ipsum dolor sit amet, consectetur adipiscing elit.</dd>
-            <dt>nine</dt>
-            <dd>lorem ipsum dolor sit amet, consectetur adipiscing elit.</dd>
-        </dl>
-        </ul>
-        <img
-            src="https://www.birds.cornell.edu/home/wp-content/uploads/2023/09/334289821-Baltimore_Oriole-Matthew_Plante.jpg"
-            alt="Baltimore Oriole"
-            width="300"
-        />
-    </main>
 
-    <footer>
+<footer>
         <p>This is the footer</p>
     </footer>
 </main>
