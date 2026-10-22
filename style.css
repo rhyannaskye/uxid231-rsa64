@@ -31,6 +31,7 @@ nav a {
   /* style individual portfolio projects */
   width: 400px;
   height: 400px;
+  margin: 0 auto; 
   background-color: #cccccc3d;
 }
 
