@@ -30,7 +30,7 @@ nav a {
 .project-card {
   /* style individual portfolio prokjects */
     background-color: #1c1c1ca6;
-  border-radius: 8px;
+  border-radius: 2px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 5px;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
