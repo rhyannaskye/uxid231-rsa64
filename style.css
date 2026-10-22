@@ -1,0 +1,25 @@
+/* Type selectors - defaults for common elements */
+
+body { 
+    /* body selector for the whole page */
+    background-color: #f7f6f2;
+    color: #2d2e2f; 
+    font-family: "Informa Pro"";
+}
+
+h1, h2, h3 {-
+    color: #2d2e2f;
+    /* font-family: "Nove"; */
+}
+
+nav a: hover {-
+    color: red;
+}
+
+nav a:focus-visible {-
+    color: blue;
+}
+
+p.callout {-
+    border: 8px solid darkgreen;
+}
