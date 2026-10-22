@@ -2,18 +2,18 @@ body {
   /* body selector for the whole page */
   background-color: #f7f7f7;
   color: #2d2e2f;
-  /* font-family: "Informa Pro"; */
+  /* font-family: "Inter"; */
 }
 
 h1, h2, h3 {
   color: #2d2e2f;
-  /* font-family: "Nove"; */
+  /* font-family: "Inter"; */
 }
 
 p {
   /* Paragraph text design */
-  /* font-family: "Informa Pro"; */
-  /* font-size: 1rem; */
+  /* font-family: "Inter"; */
+  /* font-size: */
   /* color: #2d2e2f; */
 }
 
@@ -45,7 +45,7 @@ p.callout {
 }
 
 #home-title {
-  /* font-family: "Nove";
+  /* font-family: "Inter";
   font-size: 3rem;
   color: #2d2e2f; */
 }
