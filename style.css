@@ -11,14 +11,13 @@ h1, h2, h3 {
 }
 
 p {
-  /* Paragraph text design */
-  /* font-family: "Inter"; */
+  font-family: "Inter"; 
   /* font-size: */
   /* color: #2d2e2f; */
 }
 
 a {
-  /* General link  design */
+  /* defining general link design */
   color: #657e0a;
 }
 
@@ -45,12 +44,8 @@ p.callout {
   /* Wanted to bold important text in a paragraph */
 }
 
-.project-card p {
-  /* Style paragraphs that appear inside portfolio project cards */
-}
-
 #home-title {
-  /* font-family: "Inter";
+  /font-family: "Inter";
   font-size: 3rem;
   color: #2d2e2f; */
 }
