@@ -57,9 +57,9 @@ p.callout {
 }
 
 #home-title {
-  /font-family: "Inter";
+  font-family: "Inter";
   font-size: 3rem;
-  color: #2d2e2f; */
+  color: #2d2e2f; 
 }
 
 nav a:hover {
