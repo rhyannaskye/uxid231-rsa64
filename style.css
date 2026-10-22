@@ -2,7 +2,7 @@ body {
   /* body selector for the whole page */
   background-color: #f7f6f2;
   color: #2d2e2f;
-  font-family: "Informa Pro";
+  /* font-family: "Informa Pro"; */
 }
 
 h1, h2, h3 {
@@ -39,9 +39,9 @@ p.callout {
 }
 
 #home-title {
-  font-family: "Nove";
+  /* font-family: "Nove";
   font-size: 3rem;
-  color: #2d2e2f;
+  color: #2d2e2f; */
 }
 
 nav a:hover {
