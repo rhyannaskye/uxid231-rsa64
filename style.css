@@ -11,24 +11,19 @@ h1, h2, h3 {
 }
 
 p {
-  /* Set the default appearance of paragraph text */
+  /* Appearance of paragraph text */
+  /* font-family: "Informa Pro"; */
+  /* font-size: 1rem; */
+  /* color: #2d2e2f; */
 }
 
 a {
-  /* Set the default appearance of links */
+  /* Appearance of links */
 }
-
-/* ==========================================================
-   2. Combinators on type selectors: elements in a region
-   ========================================================== */
 
 nav a {
   /* Style links inside navigation separately from other links */
 }
-
-/* ==========================================================
-   3. Class selectors: reusable components
-   ========================================================== */
 
 .project-card {
   /* Style each portfolio project as a reusable component */
@@ -39,17 +34,9 @@ p.callout {
   /* Wanted to bold important text in a paragraph */
 }
 
-/* ==========================================================
-   4. Combinators involving classes
-   ========================================================== */
-
 .project-card p {
   /* Style paragraphs that appear inside portfolio project cards */
 }
-
-/* ==========================================================
-   5. Id selectors: one-off, unique elements
-   ========================================================== */
 
 #home-title {
   font-family: "Nove";
@@ -58,9 +45,9 @@ p.callout {
 }
 
 nav a:hover {
-  color: red;
+  color: #00d3e4;
 }
 
 nav a:focus-visible {
-  color: blue;
+  color: #ffd51a;
 }
