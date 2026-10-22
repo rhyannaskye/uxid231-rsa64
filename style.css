@@ -2,7 +2,7 @@ body {
   /* body selector for the whole page */
   background-color: #f7f7f7;
   color: #2d2e2f;
-  /* font-family: "Inter"; */
+  font-family: "Inter";
 }
 
 h1, h2, h3 {
