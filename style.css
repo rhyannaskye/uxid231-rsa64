@@ -28,7 +28,12 @@ nav a {
 }
 
 .project-card {
-  /* designing portfolio projects with shadows */
+  /* style individual portfolio prokjects */
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
 }
 
 p.callout {
