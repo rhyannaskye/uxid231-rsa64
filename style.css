@@ -29,6 +29,11 @@ nav a {
 
 .project-card {
   /* style individual portfolio prokjects */
+    background-color: #1c1c1ca6;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .project-card:hover {
