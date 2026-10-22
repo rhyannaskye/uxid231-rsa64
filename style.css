@@ -28,11 +28,15 @@ nav a {
 }
 
 .project-card {
-  /* style individual portfolio prokjects */
+  /* style individual portfolio projects */
+  width: 400px;
+  height: 400px;
+  background-color: #cccccc3d;
 }
 
 .project-card:hover {
   /* make individual projects pop when cursor hovers over */
+  transform: translateY(-5px);
 }
 
 p.callout {
