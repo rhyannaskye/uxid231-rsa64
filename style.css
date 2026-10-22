@@ -11,22 +11,24 @@ h1, h2, h3 {
 }
 
 p {
-  /* Appearance of paragraph text */
+  /* Paragraph text design */
   /* font-family: "Informa Pro"; */
   /* font-size: 1rem; */
   /* color: #2d2e2f; */
 }
 
 a {
-  /* Appearance of links */
+  /* General link  design */
+  color: #657e0a;
 }
 
 nav a {
-  /* Style links inside navigation separately from other links */
+  /* Specific link design-> links inside navigation */
+    color: #303c03b3;
 }
 
 .project-card {
-  /* Style each portfolio project as a reusable component */
+  /* designing portfolio projects with shadows */
 }
 
 p.callout {
