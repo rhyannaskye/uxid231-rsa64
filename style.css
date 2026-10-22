@@ -12,7 +12,33 @@ h1, h2, h3 {-
     /* font-family: "Nove"; */
 }
 
-nav a: hover {-
+p {   /* Set the default appearance of paragraph text */
+
+}
+
+a {
+    /* Set the default appearance of links */
+}
+
+nav a {
+    /* Style links inside navigation separately from other links */
+}
+
+.project-card {
+    /* Style each portfolio project as a reusable component */
+}
+
+.project-card p {
+    /* Style paragraphs that appear inside portfolio project cards */
+}
+
+#home-title {
+    font-family: "Nove";
+    font-size: 3rem;
+    color: #2d2e2f;
+}
+
+nav a:hover {-
     color: red;
 }
 
