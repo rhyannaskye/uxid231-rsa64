@@ -39,6 +39,19 @@ nav a {
   transform: translateY(-5px);
 }
 
+.contact-info {
+  /* style individual portfolio projects */
+  width: 60px;
+  height: 60px;
+  margin: 0 auto; 
+  background-color: #7d7d7d00;
+}
+
+.contact-info:hover {
+  /* make individual projects pop when cursor hovers over */
+  transform: translateY(-5px);
+}
+
 p.callout {
   font-weight: bold;
   /* Wanted to bold important text in a paragraph */
