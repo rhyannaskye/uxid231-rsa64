@@ -66,6 +66,10 @@ p.callout {
   /* Wanted to bold important text in a paragraph */
 }
 
+.works-menu {
+  text-align: right;
+}
+
 #home-title {
   font-family: "Inter";
   font-size: 3rem;
