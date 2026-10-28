@@ -1,7 +1,17 @@
+:root {
+	--color-background: #b61313;
+	--color-foreground: #2d2e2f;
+	--color-link: #657e0a;
+	--color-link-hover: #00d3e4;
+
+	--font-size-base: 1rem;
+	--font-size-heading: 2.25rem;
+}
+
 body {
   /* body selector for the whole page */
-  background-color: #f7f7f7;
-  color: #2d2e2f;
+  background-color: var(--color-background);
+  color: var(--color-foreground);
   font-family: "Inter";
 }
 
@@ -18,12 +28,12 @@ p {
 
 a {
   /* defining general link design */
-  color: #657e0a;
+  color: var(--color-link);
 }
 
 nav a {
   /* Specific link design-> links inside navigation */
-    color: #303c03b3;
+    color: var(--color-link);
 }
 
 .project-card {
@@ -63,7 +73,7 @@ p.callout {
 }
 
 nav a:hover {
-  color: #00d3e4;
+  color: var(--color-link-hover);
 }
 
 nav a:focus-visible {
