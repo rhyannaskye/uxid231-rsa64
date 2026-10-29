@@ -12,27 +12,29 @@
 	--color-link-hover: #073e42;
   --color-focus-ring: #100742;
 
-	--font-size-base: 1rem;
-	--font-size-heading: 2.25rem;
+	--font-size-body: 1rem;
+	--font-size-heading: 2rem;
 }
 
 body {
   /* body selector for the whole page */
   background-color: var(--color-background);
   color: var(--color-foreground);
-  font-family: "Inter";
+  font-size: var(--font-size-body);
+  /* font-family: "Inter"; */
 }
 
 h1, h2, h3 {
   color: var(--color-foreground);
+  font-size: var(--font-size-heading);
   /* font-family: "Inter"; */
 }
 
 p {
-  font-family: "Inter"; 
+  /* font-family: "Inter"; */
   color: var(--color-foreground);
+  font-size: var(--font-size-body);
   /* font-size: */
-  /* color: #2d2e2f; */
 }
 
 a {
@@ -79,12 +81,8 @@ p.callout {
   /* Wanted to bold important text in a paragraph */
 }
 
-.works-menu {
-  text-align: right;
-}
-
 #home-title {
-  font-family: "Inter";
+  /* font-family: "Inter"; */
   font-size: 3rem;
   color: var(	--color-foreground); 
 }
