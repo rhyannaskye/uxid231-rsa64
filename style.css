@@ -57,6 +57,7 @@ nav a {
 
 .project-card:hover {
   /* make individual projects pop when cursor hovers over */
+  /* Used AI to make this hover effect */
   transform: translateY(-5px);
 }
 
@@ -69,6 +70,7 @@ nav a {
 
 .contact-info:hover {
   /* make individual projects pop when cursor hovers over */
+  /* Used AI to make this hover effect */
   transform: translateY(-5px);
 }
 
