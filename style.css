@@ -37,11 +37,13 @@ p {
 a {
   /* defining general link design */
   color: var(--color-link);
+  text-decoration: underline;
 }
 
 nav a {
   /* Specific link design-> links inside navigation */
     color: var(--color-link);
+    text-decoration: underline;
 }
 
 .project-card {
