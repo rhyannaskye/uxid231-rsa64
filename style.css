@@ -1,5 +1,12 @@
+@font-face {
+  font-family: "Inter";
+  src: url("Inter-Regular.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
 :root {
-	--color-background: #f0f0f0;
+	--color-background: #fcfcfc;
 	--color-foreground: #2d2e2f;
 	--color-link: #526605;
 	--color-link-hover: #073e42;
