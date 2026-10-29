@@ -11,29 +11,23 @@
 	--color-link: #526605;
 	--color-link-hover: #073e42;
   --color-focus-ring: #100742;
-
-	--font-size-body: 1rem;
-	--font-size-heading: 2rem;
 }
 
 body {
   /* body selector for the whole page */
   background-color: var(--color-background);
   color: var(--color-foreground);
-  font-size: var(--font-size-body);
   /* font-family: "Inter"; */
 }
 
 h1, h2, h3 {
   color: var(--color-foreground);
-  font-size: var(--font-size-heading);
   /* font-family: "Inter"; */
 }
 
 p {
   /* font-family: "Inter"; */
   color: var(--color-foreground);
-  font-size: var(--font-size-body);
   /* font-size: */
 }
 
