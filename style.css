@@ -34,6 +34,8 @@ body {
   font-family: 'Roboto', system-ui, sans-serif;
   line-height: var(--line-height-base);
   max-width: var(--max-width);
+  /* want to avoid awkward line break placement in large blocks of text */
+  text-wrap: pretty;
 }
 
 h1 {
@@ -62,6 +64,7 @@ p {
   font-size: var(--font-size-base);
   line-height: var(--line-height-base);
   max-width: var(--max-width);
+  text-wrap: pretty;
 }
 
 a {
