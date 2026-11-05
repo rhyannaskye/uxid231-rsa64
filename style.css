@@ -5,29 +5,58 @@
   font-style: normal;
 } */
 
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-VariableFont.ttf') format('ttf');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
+
 :root {
 	--color-background: #fcfcfc;
 	--color-foreground: #2d2e2f;
 	--color-link: #526605;
 	--color-link-hover: #073e42;
   --color-focus-ring: #100742;
+  --font-size-small: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-large: 1.25rem;
+  --font-size-h3: 1.75rem;
+  --font-size-h2: 2rem;
+  --font-size-h1: 2.25rem;
 }
 
 body {
   /* body selector for the whole page */
   background-color: var(--color-background);
   color: var(--color-foreground);
-  /* font-family: "Inter"; */
+  font-family: "Roboto"; */
+  font-size: var(--font-size-base);
 }
 
-h1, h2, h3 {
+h1 {
   color: var(--color-foreground);
   /* font-family: "Inter"; */
+  font-size: var(--font-size-h1);
+}
+
+h2 {
+  color: var(--color-foreground);
+  /* font-family: "Inter"; */
+  font-size: var(--font-size-h2);
+}
+
+h3 {
+  color: var(--color-foreground);
+  /* font-family: "Inter"; */
+  font-size: var(--font-size-h3);
 }
 
 p {
   /* font-family: "Inter"; */
   color: var(--color-foreground);
+  font-size: var(--font-size-base);
   /* font-size: */
 }
 
@@ -35,12 +64,14 @@ a {
   /* defining general link design */
   color: var(--color-link);
   text-decoration: underline;
+    font-size: var(--font-size-small);
 }
 
 nav a {
   /* Specific link design-> links inside navigation */
     color: var(--color-link);
     text-decoration: underline;
+    font-size: var(--font-size-small);
 }
 
 .project-card {
