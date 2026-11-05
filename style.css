@@ -71,7 +71,7 @@ a {
   /* defining general link design */
   color: var(--color-link);
   text-decoration: underline;
-  font-size: var(--font-size-small);
+  font-size: var(--font-size-base);
   line-height: var(--line-height-base);
 }
 
@@ -79,7 +79,7 @@ nav a {
   /* Specific link design-> links inside navigation */
     color: var(--color-link);
     text-decoration: underline;
-    font-size: var(--font-size-small);
+    font-size: var(--font-size-base);
     line-height: var(--line-height-base);
 }
 
