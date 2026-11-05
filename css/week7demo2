@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Week 7 Demo</title>
+        <link rel="stylesheet" href="css/week7demo.css">
+    </head>
+    <body> 
+        <div class = "mast">
+            <img src="briefcase.jpg" alt="week 7 demo image">
+
+        </div> </body>
+</html> 
