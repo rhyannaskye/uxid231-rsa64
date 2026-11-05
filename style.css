@@ -31,7 +31,6 @@ body {
   /* body selector for the whole page */
   background-color: var(--color-background);
   color: var(--color-foreground);
-  font-family: "Roboto"; */
   font-size: var(--font-size-base);
 }
 
