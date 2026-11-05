@@ -1,13 +1,6 @@
-/* @font-face {
-  font-family: "Inter";
-  src: url("Inter-Regular.ttf") format("truetype");
-  font-weight: 100 900;
-  font-style: normal;
-} */
-
 @font-face {
     font-family: 'Roboto';
-    src: url("fonts/Roboto-VariableFont.ttf") format("truetype");
+    src: url("fonts/Roboto-Regular.woff2") format("woff2");
     font-weight: 100 900;
     font-style: normal;
     font-display: swap;
