@@ -95,6 +95,18 @@ nav a {
     line-height: var(--line-height-base);
 }
 
+figure {
+  margin: 0;
+  text-align: center;
+}
+
+figure img {
+  display: block;
+  margin-inline: auto;
+  max-width: 100%;
+  height: auto;
+}
+
 .project-card {
   /* style individual portfolio projects */
   height: auto;
