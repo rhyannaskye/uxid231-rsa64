@@ -28,6 +28,8 @@
   --line-height-base: 1.5;
   --line-height-heading: 1.2;
   --max-width: 50ch;
+  /* spacing */
+  --spacing-base: 1rem;
 }
 
 body {
@@ -40,24 +42,28 @@ body {
   max-width: var(--max-width);
   /* want to avoid awkward line break placement in large blocks of text */
   text-wrap: pretty;
+  margin-bottom: var(--spacing-base);
 }
 
 h1 {
   color: var(--color-foreground);
   font-size: var(--font-size-h1);
   line-height: var(--line-height-heading);
+  margin-bottom: calc(var(--spacing-base) / 2);
 }
 
 h2 {
   color: var(--color-foreground);
   font-size: var(--font-size-h2);
   line-height: var(--line-height-heading);
+  margin-bottom: calc(var(--spacing-base) / 2);
 }
 
 h3 {
   color: var(--color-foreground);
   font-size: var(--font-size-h3);
   line-height: var(--line-height-heading);
+  margin-bottom: calc(var(--spacing-base) / 2);
 }
 
 p {
@@ -66,6 +72,7 @@ p {
   line-height: var(--line-height-base);
   max-width: var(--max-width);
   text-wrap: pretty;
+  margin-bottom: var(--spacing-base);
 }
 
 a {
@@ -86,10 +93,16 @@ nav a {
 
 .project-card {
   /* style individual portfolio projects */
-  width: 400px;
-  height: 400px;
-  margin: 0 auto; 
+  width: 100%;
+  height: auto;
+  max-width: 60ch;
   background-color: var(--color-background);
+  margin-top: var(--spacing-base);
+  margin-right: calc(var(--spacing-base) * 2);
+  margin-bottom: var(--spacing-base);
+  margin-left: calc(var(--spacing-base) * 2);
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
 }
 
 .project-card:hover {
