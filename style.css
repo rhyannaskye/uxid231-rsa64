@@ -45,6 +45,11 @@ body {
   margin-bottom: var(--spacing-base);
 }
 
+main {
+  max-width: 50ch;
+  margin-inline: auto;
+}
+
 h1 {
   color: var(--color-foreground);
   font-size: var(--font-size-h1);
@@ -98,9 +103,7 @@ nav a {
   max-width: 60ch;
   background-color: var(--color-background);
   margin-top: var(--spacing-base);
-  margin-right: calc(var(--spacing-base) * 2);
-  margin-bottom: var(--spacing-base);
-  margin-left: calc(var(--spacing-base) * 2);
+  margin: 1rem auto;
   padding: 1rem 1.5rem;
   border-radius: 8px;
 }
